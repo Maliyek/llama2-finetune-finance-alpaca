@@ -13,7 +13,7 @@ alpaca_finance = load_dataset("gbharti/finance-alpaca")
 alpaca_finance_df = pd.DataFrame(alpaca_finance['train'])
 alpaca_finance_df = alpaca_finance_df.fillna("")
 
-
+text_col=[]
 
 for _,row in alpaca_finance_df.iterrows():
     prompt = "Below is an instruction that describes the task, paired with an input that provides further context.Write a response that appropriately completes the request \n \n"
