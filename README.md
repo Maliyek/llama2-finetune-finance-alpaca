@@ -1,5 +1,5 @@
 # llama2-finetune-finance-alpaca-colab
-Fine tuning a LLaMA 2 model Finance Alpaca using 4/8 bit quantization, easily feasible on Colab.
+Fine tuning a LLaMA 2 model on Finance Alpaca using 4/8 bit quantization, easily feasible on Colab.
 
 You will need access to LLaMA-2 via HuggingFace, replace <YOUR API TOKEN> with your Access Token from HuggingFace.
 
